@@ -10,7 +10,7 @@ pipeline {
                 // Run Maven on a Unix agent.
                 sh "helm version"
                 
-                //listing files
+                //listing filess
                 sh "ls -la"
 
                 // To run Maven on a Windows agent, use
